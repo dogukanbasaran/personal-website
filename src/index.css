@@ -1,24 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --primaryBgColor: #0f172a;
-  --primaryTxtColor: #e9e9e9;
-}
-
-html {
-  background: var(--primaryBgColor);
-  color: var(--primaryTxtColor);
-  font-family: "Open Sans", serif;
-}
+/* Header */
 
 header {
   height: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 header .container {
@@ -60,17 +46,102 @@ nav a {
   text-decoration: none;
 }
 
+/* Main */
+
 main {
-  height: 80vh;
+  height: auto;
 }
 
 main .container {
   height: 100%;
-  border: solid 1px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  border-width: 1px 0;
 }
+
+/* Home Section */
+
+.home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home h1 {
+  font-size: 3em;
+  color: #0c4a6e;
+}
+
+.home h2 {
+  font-size: 2em;
+}
+
+.offers-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.offers-text h3 {
+  font-size: 2em;
+}
+
+.offers-text span {
+  font-size: 1.5em;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 30px;
+  padding: 4%;
+}
+
+.service-card {
+  border: solid 1px rgba(10, 41, 10, 1);
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px #000;
+  background: linear-gradient(
+    120deg,
+    rgba(12, 74, 110, 0.2) 10%,
+    rgba(10, 41, 10, 0.8) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding: 5%;
+  height: 300px;
+  width: 300px;
+}
+
+.service-card-title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.service-card-description {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+/* Footer */
 
 footer {
   height: 10vh;
