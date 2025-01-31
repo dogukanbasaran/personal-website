@@ -1,12 +1,12 @@
-import * as motion from "motion/react-client";
+import { motion } from "motion/react";
 
 const Introduction = () => {
   return (
     <motion.div
-      initial={{ opacity: 0, scale: 0 }}
-      animate={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0, translateY: -20 }}
+      animate={{ opacity: 1, translateY: 0 }}
       transition={{
-        duration: 0.5,
+        duration: 1,
       }}
       className="text-container"
     >
