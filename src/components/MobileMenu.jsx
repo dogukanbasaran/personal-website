@@ -1,20 +1,18 @@
 import { Link } from "react-router-dom";
-import MobileMenuBtn from "./MobileMenuBtn";
-import MobileMenu from "./MobileMenu";
-const NavBar = () => {
+
+const MobileMenu = () => {
   return (
     <>
-      <nav>
+      <div className="mobile-menu">
         <ul>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/projects">My Projects</Link>
           <Link to="/contact">Contact</Link>
         </ul>
-      </nav>
-      <MobileMenuBtn />
+      </div>
     </>
   );
 };
 
-export default NavBar;
+export default MobileMenu;

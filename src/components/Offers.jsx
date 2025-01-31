@@ -19,7 +19,7 @@ const Offers = () => {
         <ServiceCard
           icon={<AnalyticsIcon sx={{ fontSize: "2.5em" }} />}
           title={"Analyzing Data"}
-          description={`With Python, I analyze data efficiently, 
+          description={`With Python, I can analyze data efficiently, 
             using libraries like NumPy, Pandas and Matplotlib to uncover meaningful patterns.`}
         />
       </div>

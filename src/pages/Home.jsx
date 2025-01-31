@@ -15,9 +15,11 @@ const Home = () => {
           repeat: Infinity,
         }}
       >
-        <KeyboardArrowDownIcon fontSize="large" className="arrow-icon" />
+        <KeyboardArrowDownIcon
+          sx={{ fontSize: "3em" }}
+          className="arrow-icon"
+        />
       </motion.span>
-
       <Offers />
     </section>
   );
