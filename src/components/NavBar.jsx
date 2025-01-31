@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import MenuIcon from "@mui/icons-material/Menu";
 const NavBar = () => {
   return (
     <nav>
@@ -8,6 +9,10 @@ const NavBar = () => {
         <Link to="/projects">My Projects</Link>
         <Link to="/contact">Contact</Link>
       </ul>
+
+      <button className="btn-mobile-menu">
+        <MenuIcon />
+      </button>
     </nav>
   );
 };
