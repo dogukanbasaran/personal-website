@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import { motion, useScroll } from "motion/react";
+import "./Main.css";
 
 const Main = () => {
   const { scrollYProgress } = useScroll();

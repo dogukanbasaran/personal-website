@@ -1,7 +1,8 @@
-import ServiceCard from "../components/ServiceCard";
+import ServiceCard from "../ServiceCard/ServiceCard";
 import CodeIcon from "@mui/icons-material/Code";
 import AnalyticsIcon from "@mui/icons-material/Analytics";
 import { motion } from "motion/react";
+import "./Offers.css";
 
 const Offers = () => {
   return (

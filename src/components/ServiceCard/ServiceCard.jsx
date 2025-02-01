@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import "./ServiceCard.css";
 
 const ServiceCard = (props) => {
   return (

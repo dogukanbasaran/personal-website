@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import MobileMenuBtn from "./MobileMenuBtn";
-import MobileMenu from "./MobileMenu";
+import MobileMenuBtn from "../MobileMenuBtn/MobileMenuBtn";
+import "./NavBar.css";
+
 const NavBar = () => {
   return (
     <>

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import MobileMenu from "./MobileMenu";
+import MobileMenu from "../MobileMenu/MobileMenu";
+import "./MobileMenuBtn.css";
 
 const MobileMenuBtn = () => {
   const [isOpen, setIsOpen] = useState(false);

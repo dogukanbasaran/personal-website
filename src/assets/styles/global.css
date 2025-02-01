@@ -10,13 +10,19 @@
   display: none;
 }
 
-:root {
-  --primaryBgColor: #0f172a;
-  --primaryTxtColor: #e9e9e9;
-}
-
 html {
   background: var(--primaryBgColor);
   color: var(--primaryTxtColor);
   font-family: "Open Sans", serif;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 0.8em;
+  }
+}
+
+a {
+  color: var(--primaryTxtColor);
+  text-decoration: dashed;
 }

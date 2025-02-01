@@ -1,5 +1,6 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import "./Footer.css";
 
 const Footer = () => {
   return (

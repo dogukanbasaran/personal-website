@@ -1,7 +1,8 @@
 import * as motion from "motion/react-client";
-import Introduction from "../components/Introduction";
-import Offers from "../components/Offers";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Introduction from "../../components/Introduction/Introduction";
+import Offers from "../../components/Offers/Offers";
+import "./Home.css";
 
 const Home = () => {
   return (

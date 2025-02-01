@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import "./Introduction.css";
 
 const Introduction = () => {
   return (
