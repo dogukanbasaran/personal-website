@@ -1,0 +1,42 @@
+.milestones {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.milestone {
+  display: flex;
+  gap: 20px;
+}
+
+.milestone span {
+  width: 200px;
+}
+
+.time-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.point {
+  height: 20px;
+  width: 20px;
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  background-color: #e9e9e9;
+}
+
+.line {
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  height: 100px;
+  width: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .milestone {
+    width: 80%;
+  }
+}

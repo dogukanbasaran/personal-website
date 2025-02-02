@@ -1,0 +1,8 @@
+.education-and-experiences {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  max-width: 600px;
+}

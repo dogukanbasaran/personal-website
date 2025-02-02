@@ -1,0 +1,19 @@
+.skills img {
+  border-radius: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.skills {
+  width: 100%;
+}
+
+.skill {
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1%;
+}
