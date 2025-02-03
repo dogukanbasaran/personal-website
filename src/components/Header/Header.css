@@ -3,6 +3,8 @@ header {
   width: 100%;
   position: fixed;
   z-index: 100;
+  background-color: var(--primaryBgColor);
+  border-bottom: solid 1px var(--primaryBorderColor);
 }
 
 header .container {

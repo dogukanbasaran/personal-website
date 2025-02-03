@@ -1,4 +1,6 @@
 :root {
-  --primaryBgColor: #0f172a;
+  --primaryBgColor: rgb(1, 5, 13);
+  --secondaryBgColor: rgb(2, 7, 16);
   --primaryTxtColor: #e9e9e9;
+  --primaryBorderColor: rgba(255, 255, 255, 0.1);
 }

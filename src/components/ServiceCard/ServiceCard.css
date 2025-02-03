@@ -1,12 +1,7 @@
 .service-card {
-  border: solid 1px rgba(10, 41, 10, 1);
+  border: solid 1px var(--primaryBorderColor);
   border-radius: 10px;
-  box-shadow: 2px 2px 1px #000;
-  background: linear-gradient(
-    120deg,
-    rgba(12, 74, 110, 0.1) 10%,
-    rgba(10, 41, 10, 0.2) 100%
-  );
+  background-color: var(--secondaryBgColor);
   display: flex;
   flex-direction: column;
   align-items: center;
