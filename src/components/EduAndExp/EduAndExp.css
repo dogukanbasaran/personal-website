@@ -1,8 +1,15 @@
 .education-and-experiences {
-  width: 100%;
+  width: 80%;
+  text-align: center;
+  max-width: 600px;
+  border: solid 1px var(--secondaryBorderColor);
+  border-radius: 10px;
+  background-color: var(--secondaryBgColor);
+}
+
+.education-and-experiences .container {
   display: flex;
   flex-direction: column;
-  text-align: center;
   gap: 20px;
-  max-width: 600px;
+  padding: 5%;
 }

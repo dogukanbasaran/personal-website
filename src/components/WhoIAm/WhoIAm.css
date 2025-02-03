@@ -11,6 +11,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 5%;
+  background-color: var(--secondaryBgColor);
+  border: solid 1px var(--secondaryBorderColor);
+  border-radius: 10px;
 }
 
 .links {

@@ -9,10 +9,39 @@ const Introduction = () => {
       transition={{
         duration: 1,
       }}
-      className="text-container"
+      className="introduction"
     >
-      <h1>Hi, I am Dogukan Basaran.</h1>
-      <h2>I am a web developer and Data Analyst.</h2>
+      <div className="introduction-text">
+        <motion.h1
+          initial={{
+            WebkitTextFillColor: "transparent",
+            clipPath: "inset(0 100% 0 0)",
+          }}
+          animate={{
+            WebkitTextFillColor: "#e9e9e9",
+            clipPath: "inset(0% 0% 0% 0%)",
+          }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          className="stroked-text"
+        >
+          Hi, I am Dogukan Basaran.
+        </motion.h1>
+        <motion.h2
+          initial={{
+            WebkitTextFillColor: "transparent",
+            clipPath: "inset(0 100% 0 0)",
+          }}
+          animate={{
+            WebkitTextFillColor: "#e9e9e9",
+            clipPath: "inset(0% 0% 0% 0%)",
+          }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          className="stroked-text"
+        >
+          I am a web developer and Data Analyst.
+        </motion.h2>
+      </div>
+      <img src="/rb_17049.png" />
     </motion.div>
   );
 };

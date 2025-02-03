@@ -1,5 +1,5 @@
 .service-card {
-  border: solid 1px var(--primaryBorderColor);
+  border: solid 1px var(--secondaryBorderColor);
   border-radius: 10px;
   background-color: var(--secondaryBgColor);
   display: flex;

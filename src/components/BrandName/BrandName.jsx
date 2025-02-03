@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./BrandName.css";
-import logo from "/public/dogukan.svg";
+import logo from "/dogukan.svg";
 
 const BrandName = () => {
   return (

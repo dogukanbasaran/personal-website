@@ -6,8 +6,8 @@ import FileDownloadIcon from "@mui/icons-material/FileDownload";
 const WhoIAm = () => {
   return (
     <div className="who-i-am">
-      <h3>Who I Am?</h3>
       <div className="container">
+        <h3>Who Am I?</h3>
         <img src={me} alt="photo" height={200} />
         <div className="links">
           <a href="mailto:dogukanbasarann@hotmail.com">

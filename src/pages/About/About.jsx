@@ -1,7 +1,6 @@
 import "./About.css";
 import WhoIAm from "../../components/WhoIAm/WhoIAm";
 import EduAndExp from "../../components/EduAndExp/EduAndExp";
-import MySkills from "../../components/MySkills/MySkills";
 
 const About = () => {
   return (
@@ -17,7 +16,6 @@ const About = () => {
         name_1={"MUSEM"}
         name_2={"Field Researcher"}
       />
-      <MySkills />
     </section>
   );
 };

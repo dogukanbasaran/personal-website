@@ -5,7 +5,7 @@ const ServiceCard = (props) => {
   return (
     <motion.div whileHover={{ scale: 1.1 }} className="service-card">
       <span>{props.icon}</span>
-      <h3 className="service-card-title">{props.title}</h3>
+      <h4 className="service-card-title">{props.title}</h4>
       <p className="service-card-description">{props.description}</p>
     </motion.div>
   );
